@@ -16,7 +16,20 @@
 body {
   margin: 0;
   display: flex;
-  place-items: center;
   min-width: 320px;
   min-height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+}
+
+.card{
+  background-color: antiquewhite;
+  color: black; 
+  height: 200px;
+  width: 200px;
 }
