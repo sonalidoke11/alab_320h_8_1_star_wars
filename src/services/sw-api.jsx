@@ -12,8 +12,9 @@ export async function getAllStarships(){
         }else{
             throw new Error('Response not ok')
         }
-        console.log(response);
+        //console.log(response);
     } catch (error) {
-        
+        console.error('Errorrrr: ', error);
+        return [];
     }
 }
